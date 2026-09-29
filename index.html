@@ -239,7 +239,7 @@
                 <span>📍 Recife, PE</span>
                 <a href="mailto:viniciussna@gmail.com">📧 viniciussna@gmail.com</a>
                 <a href="https://linkedin.com/in/vinicius-senaa" target="_blank">🔗 LinkedIn</a>
-                <a href="https://github.com/viniciussna-01/viniciussna-01-analytics" target="_blank">🐙 GitHub</a>
+                <a href="https://github.com/viniciussna-01" target="_blank">🐙 GitHub</a>
             </div>
         </header>
 
@@ -308,70 +308,115 @@
             <h2>// projetos</h2>
 
             <div class="project">
-                <h3>🔄 Sistemas de Conciliação Streamlit</h3>
-                <p class="project-meta">Fertgroup | 2024-2025 | Featured Project</p>
+                <h3>🔄 Conciliação OMIE × Prefeitura</h3>
+                <p class="project-meta">Fertgroup | Featured Project</p>
                 <p class="project-desc">
-                    Dois sistemas de conciliação bancária em produção no Streamlit Cloud processando dados de 16 unidades. 
-                    Reconcilia faturas do Omie ERP contra notas fiscais da prefeitura com automação completa. 
-                    Reduz tempo manual de 4h para 15min por ciclo.
+                    Sistemas de conciliação bancária/fiscal em produção, processando dados de múltiplas unidades.
+                    Reconcilia faturas do Omie ERP contra notas fiscais eletrônicas da prefeitura com reconhecimento
+                    inteligente de colunas, classificação de divergências e exportação de relatórios em Excel.
+                </p>
+                <div class="project-tech">
+                    <span class="tech">Python</span>
+                    <span class="tech">Streamlit</span>
+                    <span class="tech">Pandas</span>
+                    <span class="tech">Supabase</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/viniciussna-01/CONCILIAPREF" target="_blank">→ GitHub</a>
+                </div>
+            </div>
+
+            <div class="project">
+                <h3>⚽ Santa Cruz Data Analytics</h3>
+                <p class="project-meta">Personal Project | Sports Analytics</p>
+                <p class="project-desc">
+                    Plataforma de análise de desempenho do Santa Cruz FC: coleta automática de jogos via Sofascore,
+                    banco SQLite e dashboard Streamlit multipágina com scouting individual, comparação entre jogadores,
+                    índice de performance próprio e simulação de Monte Carlo para os jogos restantes.
+                </p>
+                <div class="project-tech">
+                    <span class="tech">Python</span>
+                    <span class="tech">Streamlit</span>
+                    <span class="tech">SQLite</span>
+                    <span class="tech">Web Scraping</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/viniciussna-01/santa-cruz-analytics" target="_blank">→ GitHub</a>
+                </div>
+            </div>
+
+            <div class="project">
+                <h3>✈️ Radar de Passagens (REC)</h3>
+                <p class="project-meta">Personal Project | Automation</p>
+                <p class="project-desc">
+                    Monitoramento diário de passagens aéreas baratas (dinheiro e milhas) saindo do Recife, com histórico
+                    de preços, classificação automática de oportunidades e alertas via Telegram. Arquitetura em camadas
+                    rodando contra Supabase, com dashboard completo em Streamlit.
                 </p>
                 <div class="project-tech">
                     <span class="tech">Python</span>
                     <span class="tech">Streamlit</span>
                     <span class="tech">Supabase</span>
-                    <span class="tech">Pandas</span>
-                    <span class="tech">SQL</span>
+                    <span class="tech">Telegram Bot</span>
                 </div>
                 <div class="project-links">
-                    <a href="https://github.com/viniciussna-01/conciliacao-streamlit" target="_blank">→ GitHub</a>
+                    <a href="https://github.com/viniciussna-01/radar_passagem" target="_blank">→ GitHub</a>
                 </div>
             </div>
 
             <div class="project">
-                <h3>💰 Web App Finanças Pessoais</h3>
-                <p class="project-meta">Personal Project | 2024 | In Progress</p>
+                <h3>🛒 Afiliados ML</h3>
+                <p class="project-meta">Personal Project | Automation + LLM</p>
                 <p class="project-desc">
-                    Aplicação Next.js + Supabase + Vercel para organização financeira pessoal. 
-                    Substitui sistema Excel com dashboard de investimentos, metas e análise de gastos.
+                    Sistema que monitora um canal do Telegram, detecta links do Mercado Livre, gera link de afiliado
+                    oficial, cria descrição persuasiva com LLM e republica a oferta com deduplicação, histórico de
+                    preços e painel web. Construído em Clean Architecture com inversão de dependência.
                 </p>
                 <div class="project-tech">
-                    <span class="tech">Next.js</span>
-                    <span class="tech">Supabase</span>
-                    <span class="tech">React</span>
+                    <span class="tech">Python</span>
+                    <span class="tech">Playwright</span>
+                    <span class="tech">SQLAlchemy</span>
+                    <span class="tech">Docker</span>
+                    <span class="tech">Claude API</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/viniciussna-01/afiliados-ml" target="_blank">→ GitHub</a>
+                </div>
+            </div>
+
+            <div class="project">
+                <h3>📈 Finance Dashboard IBOV</h3>
+                <p class="project-meta">Personal Project | Financial Analytics</p>
+                <p class="project-desc">
+                    Dashboard Streamlit para análise técnica de ativos do Ibovespa: médias móveis, RSI, MACD,
+                    bandas de Bollinger, detecção de cruzamentos e alertas automáticos, com snapshot macro do
+                    cenário brasileiro.
+                </p>
+                <div class="project-tech">
+                    <span class="tech">Python</span>
+                    <span class="tech">Streamlit</span>
+                    <span class="tech">Pandas</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/viniciussna-01/finance-dash-ibov" target="_blank">→ GitHub</a>
+                </div>
+            </div>
+
+            <div class="project">
+                <h3>🛍️ Melhores Promo</h3>
+                <p class="project-meta">Personal Project | Growth / Landing Page</p>
+                <p class="project-desc">
+                    Landing page de conversão (Instagram → Página → CTA → Grupo WhatsApp), com tracking de cliques
+                    e deploy contínuo na Vercel. Otimizada para tráfego mobile.
+                </p>
+                <div class="project-tech">
+                    <span class="tech">HTML</span>
+                    <span class="tech">CSS</span>
+                    <span class="tech">JavaScript</span>
                     <span class="tech">Vercel</span>
                 </div>
                 <div class="project-links">
-                    <a href="https://github.com/viniciussna-01/app-financas" target="_blank">→ GitHub</a>
-                </div>
-            </div>
-
-            <div class="project">
-                <h3>📈 Dashboard Econômico Brasil</h3>
-                <p class="project-meta">Academic Project | 2023</p>
-                <p class="project-desc">
-                    Dashboard Streamlit com indicadores econômicos: SELIC, IPCA, Ibovespa. 
-                    Visualizações com Plotly e treemap de ações. Deployed no Streamlit Cloud.
-                </p>
-                <div class="project-tech">
-                    <span class="tech">Streamlit</span>
-                    <span class="tech">Plotly</span>
-                    <span class="tech">Python</span>
-                </div>
-                <div class="project-links">
-                    <a href="https://github.com/viniciussna-01/dashboard-economico" target="_blank">→ GitHub</a>
-                </div>
-            </div>
-
-            <div class="project">
-                <h3>🚗 Simulador EV Economics</h3>
-                <p class="project-meta">Personal Project | 2024</p>
-                <p class="project-desc">
-                    Calculadora interativa para análise econômica de EVs vs combustão. 
-                    Incorpora Uber income, solar charging, IPVA e financing scenarios.
-                </p>
-                <div class="project-tech">
-                    <span class="tech">Python</span>
-                    <span class="tech">Streamlit</span>
+                    <a href="https://github.com/viniciussna-01/melhores-promo" target="_blank">→ GitHub</a>
                 </div>
             </div>
         </section>
@@ -390,7 +435,7 @@
 
         <!-- FOOTER -->
         <footer>
-            <p>Desenvolvido com ❤️ | Atualizado em 2025</p>
+            <p>Desenvolvido com ❤️ | Atualizado em 2026</p>
         </footer>
     </div>
 </body>
